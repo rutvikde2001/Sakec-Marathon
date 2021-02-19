@@ -59,9 +59,9 @@
 		
 		pagination			: true,
 		
-		playPause			: true,	//true or false, to display or not the play/pause buttons
+		playPause			: false,	//true or false, to display or not the play/pause buttons
 		
-		pauseOnClick		: true,	//true, false. It stops the slideshow when you click the sliders.
+		pauseOnClick		: false,	//true, false. It stops the slideshow when you click the sliders.
 		
 		pieDiameter			: 38,
 		

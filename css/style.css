@@ -245,7 +245,8 @@ a:hover {
 	text-align: right;
 }
 .center {
-	text-align: center;
+    text-align: center;
+    color: #fff;
 }
 .wrapper, .extra_wrapper {
 	overflow: hidden;
@@ -341,6 +342,14 @@ header h1 a img {
 
 /**Content**/
 
+.hreg {
+    color: #fff;
+    text-align: center;
+}
+
+.spon {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .content {
     padding-bottom: 84px;
 }
@@ -572,6 +581,11 @@ footer {
 footer a:hover {
     color: #fff;
     text-decoration: underline;
+}
+.s_logo a {
+    font: bold 72px/72px 'Economica', sans-serif;
+    color: #86c8b4;
+    margin-bottom: 20px;
 }
 
 footer .f_logo {

@@ -9,8 +9,8 @@
 (function($){
 	
 	// Number of seconds in every time division
-	var days	= 24*60*60,
-		hours	= 60*60,
+	var days	= 39*60*60,
+		hours	= 2*60*60,
 		minutes	= 60;
 	
 	// Creating the plugin
