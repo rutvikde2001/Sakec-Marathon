@@ -39,6 +39,7 @@
 			
 			// Number of days left
 			d = Math.floor(left / days);
+
 			updateDuo(0, 1, d);
 			left -= d*days;
 			
