@@ -9,8 +9,8 @@
 (function($){
 	
 	// Number of seconds in every time division
-	var days	= 39*60*60,
-		hours	= 2*60*60,
+	var days	= 24*60*60,
+		hours	= 60*60,
 		minutes	= 60;
 	
 	// Creating the plugin
@@ -31,15 +31,27 @@
 		(function tick(){
 			
 			// Time left
-			left = Math.floor((options.timestamp - (new Date())) / 1000);
+			options.timestamp = new Date(2021,3,10,12);
+			// console.log(options.timestamp)
+			var chexk = new Date(2021,3,10,12);
+			console.log(chexk);
+			var chexk1 = new Date();
+			console.log(chexk1)
+			var diff = Math.abs(chexk - chexk1);
+			console.log(diff);
 			
+			// left = Math.floor((options.timestamp - (new Date())) / 1000);
+			// console.log((new Date()))
+			// console.log((options.timestamp - (new Date())))
+			left = diff/1000;
 			if(left < 0){
 				left = 0;
 			}
 			
 			// Number of days left
 			d = Math.floor(left / days);
-
+			console.log(d)
+			
 			updateDuo(0, 1, d);
 			left -= d*days;
 			
