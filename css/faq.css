@@ -1,7 +1,9 @@
-body{
+body {
+  margin: 0;
+  padding: 0;
   background-color: #f2f2f2;
 }
-.question{
+.question {
   font-family: monospace;
   width: 760px;
   padding-top: 18.5px;
@@ -16,27 +18,24 @@ body{
   padding-left: 40px;
 }
 
- 
-
-.icon{
+.icon {
   float: right;
   margin-right: 30px;
 }
-.icon:hover{
+.icon:hover {
   cursor: pointer;
 }
-.fas{
+.fas {
   user-select: none;
 }
-.faq-content{
+.faq-content {
   margin-bottom: 10px;
 }
-.faq{
+.faq {
   text-align: center;
   background-color: white;
   border-top: 6px solid #86c8b4;
   padding-bottom: 120px;
-
 }
 .answer {
   font-family: monospace;
@@ -54,7 +53,13 @@ body{
   padding-left: 40px;
 }
 
-.faq h3{
+@media only screen and (max-width: 768px) {
+  .faq {
+    padding: 0px 30px 0px;
+  }
+}
+
+.faq h3 {
   font-size: 30px;
   color: #86c8b4;
   font-family: monospace;
