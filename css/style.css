@@ -24,7 +24,7 @@ a[href^="tel:"] {
 
 body {
   position: relative;
-  background-color: #86c8b4;
+  background-color: white;
   color: #a1a0a0;
   font: 14px/20px "Open Sans", sans-serif;
 }
@@ -231,7 +231,7 @@ a:hover {
 }
 .center {
   text-align: center;
-  color: #fff;
+  color: #0f1425;
 }
 .wrapper,
 .extra_wrapper {
@@ -563,7 +563,7 @@ footer a:hover {
 }
 .s_logo a {
   font: bold 72px/72px "Economica", sans-serif;
-  color: #86c8b4;
+  color:white;
   margin-bottom: 20px;
 }
 
@@ -888,14 +888,14 @@ footer:after {
 }
 .sponsor {
   background-color: white;
-  width: 100%;
-  color: #86c8b4;
-  margin: 0px;
+  width: 1200;
+  color: #0F1425;
+  margin: auto;
   padding-top: 0px;
   align-content: center;
 }
 .sponsor h3 {
-  color: #86c8b4;
+  color: #0F1425;
   margin: 0px;
   padding-top: 20px;
 }
@@ -935,8 +935,7 @@ h4 {
 }
 .banner{
     margin-top: 200px;
-    width: 1000px;
-    border: 4px solid white;
+    width: 80%;
     padding: 5px;
     margin: auto;
     text-align: center;
@@ -944,4 +943,35 @@ h4 {
 .banner img{
     width: 100%;
     margin: auto;
+}
+.intro{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:#0F1425 ;
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.intro p{
+  color: white;
+  text-align: center !important;
+}
+.intro h4{
+  padding-top: 40px;
+  padding-bottom: 80px;
+  color: white;
+  
+}
+.container_12{
+  background-color: #0F1425;
+  color: white;
+}
+header{
+  background-color: #0F1425;
+  color: white;
+}
+footer{
+  background-color: #0F1425;
+}
+header a{
+  color: white;
 }

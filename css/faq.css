@@ -12,7 +12,7 @@ body {
   height: 33px;
   text-align: center;
   background-color: white;
-  color: #86c8b4;
+  color: #0F1425;
   text-align: left;
   font-size: 27px;
   padding-left: 40px;
@@ -25,16 +25,16 @@ body {
 .icon:hover {
   cursor: pointer;
 }
-.fas {
+/* .fas {
   user-select: none;
-}
+} */
 .faq-content {
   margin-bottom: 10px;
 }
 .faq {
   text-align: center;
   background-color: white;
-  border-top: 6px solid #86c8b4;
+  border-top: 6px solid #0F1425;
   padding-bottom: 120px;
 }
 .answer {
@@ -61,6 +61,6 @@ body {
 
 .faq h3 {
   font-size: 30px;
-  color: #86c8b4;
+  color: #0F1425;
   font-family: monospace;
 }
