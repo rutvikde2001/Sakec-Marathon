@@ -338,6 +338,7 @@ header h1 a img {
 }
 .content {
   padding-bottom: 84px;
+  border-top: 6px solid #0f1425;
 }
 .page1 .content {
   padding-bottom: 57px;
