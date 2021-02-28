@@ -255,6 +255,7 @@ a:hover {
 
 .main {
   background-color: #fff;
+  border-bottom: 6px solid #0f1425;
 }
 
 header {
