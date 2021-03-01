@@ -5,7 +5,7 @@ body {
 }
 .question {
   font-family: monospace;
-  width: 760px;
+  width: 50vw;
   padding-top: 18.5px;
   padding-bottom: 12.5px;
   margin: auto;
@@ -40,7 +40,7 @@ body {
 .answer {
   font-family: monospace;
   display: none;
-  width: 760px;
+  width: 50vw;
   padding-top: 18.5px;
   padding-bottom: 18.5px;
   margin: auto;
@@ -49,7 +49,7 @@ body {
   background-color: white;
   color: grey;
   text-align: left;
-  font-size: 17px;
+  font-size: 27px;
   padding-left: 40px;
 }
 

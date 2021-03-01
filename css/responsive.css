@@ -1,0 +1,60 @@
+@media screen and (max-width: 480px){
+    .s_logo a{
+        font-size: 30px;
+        transition: 0s;
+    }
+    .f_logo a{
+        font-size: 30px;
+        transition: 0s;
+    }
+    .f_contacts{
+        font-size: 16px;
+        transition: 0s;
+    }
+    .copy a{
+        font-size: 14px;
+        transition: 0s;
+    }
+    .copy span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 480px){
+    .question{
+        width: 90vw;
+        font-size: 17px;
+    }
+    .icon{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1200px){
+    .question{
+        width: 80%;
+        font-size: 22px;
+    }
+    
+}
+@media screen and (max-width: 640px){
+    .question{
+        width: 90%;
+    }
+    .icon{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 1300px ){
+    .question{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 756px ){
+    .menu_block::after{
+        display: none;
+    }
+    .faq{
+        padding-bottom: 60px;
+    }
+}
