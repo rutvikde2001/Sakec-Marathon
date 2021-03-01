@@ -551,12 +551,14 @@ address dd span {
 /**Footer**/
 
 footer {
+  width: 100vw;
   display: block;
   position: relative;
   color: #fff;
   padding-top: 22px;
   padding-bottom: 40px;
   text-align: center;
+  background-color: #0F1425;
 }
 
 footer a:hover {
@@ -607,12 +609,9 @@ footer .fa-phone {
 footer:after {
   top: -10px;
   left: 50%;
-  margin-left: -382px;
   background-color: #908b8b;
   height: 10px;
-  width: 765px;
-  content: "";
-  position: absolute;
+  width: 100vw;
 }
 
 .copy {
@@ -975,14 +974,14 @@ h4 {
 .container_12{
   background-color: #0F1425;
   color: white;
+  width: 100vw;
 }
 header{
+  width: 100vw;
   background-color: #0F1425;
   color: white;
 }
-footer{
-  background-color: #0F1425;
-}
+
 header a{
   color: white;
 }
