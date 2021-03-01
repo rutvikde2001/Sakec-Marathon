@@ -58,3 +58,24 @@
         padding-bottom: 60px;
     }
 }
+
+
+/* Details page */
+
+@media screen and (max-width: 960px){
+    .guidelines h3{
+        font-size: 30px;
+    }
+    .guidelines-content{
+        padding-top: 30px;
+    }
+    .guidelines-content h4{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .guidelines h3{
+        font-size: 24px;
+    }
+}
