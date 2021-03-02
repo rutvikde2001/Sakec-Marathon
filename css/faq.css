@@ -4,7 +4,6 @@ body {
   background-color: #f2f2f2;
 }
 .question {
-  font-family: monospace;
   width: 50vw;
   padding-top: 18.5px;
   padding-bottom: 12.5px;
@@ -36,21 +35,21 @@ body {
   background-color: white;
   border-top: 6px solid #0F1425;
   padding-bottom: 120px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .answer {
-  font-family: monospace;
   display: none;
   width: 50vw;
   padding-top: 18.5px;
-  padding-bottom: 18.5px;
   margin: auto;
-  height: 33px;
-  text-align: center;
+  padding-bottom: 18.5px;
+  height: 100%;
   background-color: white;
   color: grey;
   text-align: left;
   font-size: 27px;
   padding-left: 40px;
+  line-height: 30px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -63,4 +62,6 @@ body {
   font-size: 30px;
   color: #0F1425;
   font-family: monospace;
+  width: max-content;
+  margin: auto;
 }
