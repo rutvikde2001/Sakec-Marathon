@@ -1030,7 +1030,7 @@ header a{
   font-size: 30px;
 }
 .menu_block{
-  width: 50vw;
+  width: 65vw;
   float: left;
 }
 .reg-btn{
@@ -1048,4 +1048,8 @@ header a{
 .reg-btn button:hover{
   color: white;
   transition: 0.8s;
+}
+.tsbutton{
+  font-size: 24px;
+  padding: 0px;
 }
