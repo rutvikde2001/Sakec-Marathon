@@ -14,6 +14,7 @@
 	width: 765px;
 	content: '';
 	position: absolute;
+	display: none;
 }
 
 
@@ -70,6 +71,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	transition: 0.5s ease;
     -o-transition: 0.5s ease;
     -webkit-transition: 0.5s ease;
+	display: none;
 }
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
@@ -78,6 +80,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 .sf-menu>li.sfHover>a:before, .sf-menu>li.current>a:before, .sf-menu>li>a:hover:before {
 	bottom: -21px;
+	display: none;
 }
 
 .sf-menu>li>a.sf-with-ul:after {

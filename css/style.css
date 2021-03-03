@@ -260,7 +260,7 @@ a:hover {
 
 header {
   display: block;
-  padding-top: 47px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -881,7 +881,7 @@ footer:after {
   padding-bottom: 10px;
 }
 .s_logo a {
-  font-size: 50px;
+  font-size: 30px;
   padding-bottom: 40px;
 }
 .menu_block {
@@ -1022,4 +1022,30 @@ header a{
   margin-top: 30px;
   background-color: #0f1425;
   color: white;
+}
+
+.s_logo{
+  width: 35vw;
+  float: left;
+  font-size: 30px;
+}
+.menu_block{
+  width: 50vw;
+  float: left;
+}
+.reg-btn{
+  width: 10vw;
+  float: left;
+}
+.reg-btn button{
+  width: max-content;
+  border: none;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #908b8b;
+}
+.reg-btn button:hover{
+  color: white;
+  transition: 0.8s;
 }
