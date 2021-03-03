@@ -12,7 +12,10 @@
 		<link rel="stylesheet" href="css/camera.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/sponsor.css">
-		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/test.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.2.1.js"></script>
 		<script src="js/script.js"></script>
@@ -21,8 +24,10 @@
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.mobilemenu.js"></script>
 		<script src="js/camera.js"></script>
+		
 		<!--[if (gt IE 9)|!(IE)]><!-->
 		<script src="js/jquery.mobile.customized.min.js"></script>
+		<link rel="stylesheet" href="css/responsive.css">
 		<!--<![endif]-->
 		<script>
 			$(document).ready(function(){
@@ -58,7 +63,7 @@
 				<div class="container_12">
 					
 							<div class="s_logo">
-								<a href="index.html">SAKEC Marathon</a>
+								<a href="index.html">SAKEC International Marathon</a>
 							</div>
 			
 						<div class="menu_block">
@@ -67,7 +72,6 @@
 									<li class="current"><a href="index.html">Home</a></li>
 									<!-- <li><a href="#">History</a></li> -->
 									<li><a href="details.html">Marathon 2021</a></li>
-									<li><a href="#Reg">Registeration</a></li>
 									<li><a href="contactUs.html">Contacts Us</a></li>
 									<li><a href="faq.html">FAQs</a></li>
 								</ul>
@@ -87,9 +91,11 @@
 			<div class="space" style="height: 50px"></div>
 		<div class="intro">
 			
-					<h3 >SAKEC MARATHON 2021</h3>
+			<div class="intro-head">
+				<h4>SAKEC MARATHON 2021</h4>
+			</div>
 
-			<h4>
+			<h4 style="margin: auto;">
 
 			<p >Ever since years, SAKEC profoundly has been organising Marathon which has evidently set a benchmark and an enormous
 				potential of growth every passing year.<br> 
@@ -103,7 +109,7 @@
 			</h4>
 		</div>
 
-		<div class="slider_wrapper">
+		<!-- <div class="slider_wrapper">
 			<div id="camera_wrap" class="">
 				<div data-src="images/slide1.jpeg">
 					<div class="caption fadeIn">
@@ -187,7 +193,93 @@
 				</div>
 
 			</div>
+		</div> -->
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 15</div>
+			  <img src="images/slide1.jpeg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<div class="numbertext">2 / 15</div>
+				<img src="images/slide2.jpeg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 15</div>
+			  <img src="images/slide3.jpeg" style="width:100%">
+			</div>
+			
+			<div class="mySlides fade">
+			  <div class="numbertext"> 4 / 15</div>
+			  <img src="images/slide4.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">5 / 15</div>
+				<img src="images/slide5.jpeg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">6 / 15</div>
+				<img src="images/slide6.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">7 / 15</div>
+				<img src="images/slide7.jpg" style="width:100%">
+		
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">8 / 15</div>
+				<img src="images/slide8.jpg" style="width:100%">
+				
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">9 / 15</div>
+				<img src="images/slide9.jpg" style="width:100%">
+				
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">10 / 15</div>
+				<img src="images/slide10.jpg" style="width:100%">
+				
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">11 / 15</div>
+				<img src="images/slide11.jpg" style="width:100%">
+				
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">12 / 15</div>
+				<img src="images/slide12.jpg" style="width:100%">
+				
+			</div>
+
+			<div class="mySlides fade">
+				<div class="numbertext">13 / 15</div>
+				<img src="images/slide13.jpg" style="width:100%">
+				
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">14 / 15</div>
+				<img src="images/slide14.jpg" style="width:100%">
+				
+			</div>
+			<div class="mySlides fade">
+				<div class="numbertext">15 / 15</div>
+				<img src="images/slide15.jpg" style="width:100%">
+				
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
 		</div>
+			<br>
+			
+		<!-- <div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+		</div> -->
 <!--==============================Content=================================-->			
 		<div class="container_12" style="background-color:white">
 			<div class="clear"></div>
@@ -198,7 +290,8 @@
 				<div class="count_wrap">
 					<div id="counter"></div>
 					<div class="clear"></div>
-					<a href="#">Register</a>
+					<button onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425;">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+					
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -247,10 +340,10 @@
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="f_logo">
-						<a href="index.html">SAKEC Marathon</a>
+						<a href="index.html">SAKEC International Marathon</a>
 					</div>
 					<div class="f_contacts">
-						<a href="#" class="mail_link"><span class="fa fa-envelope"></span>marathon@sakec.ac.in</a>
+						<a href="mailto: marathon@sakec.com" class="mail_link"><span class="fa fa-envelope"></span>marathon@sakec.ac.in</a>
 						<!-- <div class="f_phone"><span class="fa fa-phone"></span>+1 800 559 6580</div> -->
 					</div>
 					<div class="copy">
@@ -275,5 +368,36 @@
 				}
 			});
 		</script>
+
+
+
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
 	</body>
 </html>

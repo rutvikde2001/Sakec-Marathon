@@ -18,21 +18,47 @@
     .copy span{
         font-size: 14px;
     }
-}
-@media screen and (max-width: 480px){
     .question{
         width: 90vw;
         font-size: 17px;
     }
+    .answer{
+        font-size: 17px;
+        width: 90vw;
+    }
     .icon{
         display: none;
     }
-
+    .intro-head h4{
+        font-size: 30px;
+    }
+    .countDays, .countHours, .countMinutes, .countSeconds{
+        width: 70px;
+        height: 70px;
+    }
+    .boxName{
+        font-size: 14px;
+        top: -15px;
+    }
+    #counter{
+        font: bold 40px/48px 'BenchNine', sans-serif;
+    }
 }
+
 @media screen and (max-width: 1200px){
     .question{
         width: 80%;
         font-size: 22px;
+    }
+    .answer{
+        width: 80%;
+        font-size: 22px;
+    }
+    .intro p{
+        width: 70%;
+    }
+    .intro h3{
+        width: 80vw;
     }
     
 }
@@ -43,19 +69,71 @@
     .icon{
         display: none;
     }
+    .answer{
+        width: 90%;
+    }
+    .intro p{
+        width: 80%;
+    }
+    .intro h3{
+        font-size: 30px;
+        width: 90vw;
+    }
+    .contact-head{
+        width: 100vw;
+    }
+    .row{
+        width: 100vw;
+    }
+    .contact-head{
+        line-height: 35px;
+    }
+    .contact-head h4{
+        width: inherit;
+    }
     
 }
 @media screen and (max-width: 1300px ){
     .question{
         width: 90%;
+        padding-left: 0px;
+    }
+    .answer{
+        width: 90%;
+        padding-left: 0px;
     }
 }
-@media screen and (max-width: 756px ){
+@media screen and (max-width: 767px ){
     .menu_block::after{
         display: none;
     }
+    .contacts, .content{
+        border-top: 0px;
+    }
+    .mnav{
+        width: 100vw;
+        height: 40px;
+        font-size: 20px;
+        padding-top: 5px;
+        background-color:#0f1425;
+        color: white;
+        padding-bottom: 0px;
+        text-align: center !important;
+        border: none;
+    }
+    .mnav option{
+        width: 100vw;
+    }
+    .current{
+        width: 100%;
+        text-align: center;
+    }
+
     .faq{
         padding-bottom: 60px;
+    }
+    .menu_block:after{
+        display: none;
     }
 }
 
@@ -72,10 +150,48 @@
     .guidelines-content h4{
         width: 80vw;
     }
+    .contact-head{
+        width: 80vw;
+    }
+    .contact-head h4{
+        padding-top: 10px;
+    }
+    .row{
+        width: 80vw;
+    }
 }
 
 @media screen and (max-width: 420px){
     .guidelines h3{
         font-size: 24px;
+    }
+    .intro p{
+        padding-bottom: 30px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+
+/* Index Page */
+@media screen and (max-width: 800px){
+    .contact-head h4{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .countDays, .countHours, .countMinutes, .countSeconds{
+        width: 60px;
+        height: 60px;
+    }
+    .boxName{
+        font-size: 14px;
+        top: -25px;
+    }
+    #counter{
+        font: bold 30px/48px 'BenchNine', sans-serif;
     }
 }

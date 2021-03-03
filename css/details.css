@@ -123,9 +123,9 @@ body {
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid #0f1425;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #0f1425 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
@@ -141,7 +141,14 @@ body {
 }
 
 .process-heading {
+  width: 100vw;
+  margin: auto;
   text-align: center;
+
+}
+.process-heading h3{
+  width: max-content;
+  margin: auto;
 }
 
 .process-under {
