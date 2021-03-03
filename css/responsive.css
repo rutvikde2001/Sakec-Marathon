@@ -91,7 +91,16 @@
     .contact-head h4{
         width: inherit;
     }
-    
+    .banner{
+        width: 100vw;
+    }
+    .space{
+        display: none;
+    }
+    .reg-btn{
+        width: 70vw;
+        margin: auto;
+    }
 }
 @media screen and (max-width: 1300px ){
     .question{
@@ -101,6 +110,26 @@
     .answer{
         width: 90%;
         padding-left: 0px;
+    }
+    .s_logo{
+        width: 100vw;
+        float: none;
+    }
+    .menu_block{
+        width: 100vw;
+        float: none;
+    }
+    .reg-btn{
+        width: 50vw;
+        margin: auto;
+        float: none;
+        padding-bottom: 20px;
+    }
+    .reg-btn button{
+        color: white;
+    }
+    .main{
+        border-bottom: none;
     }
 }
 @media screen and (max-width: 767px ){
