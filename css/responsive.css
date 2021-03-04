@@ -131,7 +131,20 @@
     .main{
         border-bottom: none;
     }
+    .s_logo{
+        width: 90vw;
+        float: none;
+    }
+    .menu_block{
+        width: 100vw;
+        float: none;
+    }
+    
+    header{
+        padding-bottom: 30px;
+    }
 }
+
 @media screen and (max-width: 767px ){
     .menu_block::after{
         display: none;
@@ -164,6 +177,24 @@
     .menu_block:after{
         display: none;
     }
+    .menu_block{
+        display: none;
+    }
+    .menu-icon{
+        width: 10vw;
+        float: right;
+        margin-top: 30px;
+    }
+    .nav-mobile{
+        display: contents;
+        font-size: 10px;
+    }
+    .s_logo{
+        width: 90vw;
+        float: left;
+        margin: 0px;
+    }
+}
 }
 
 

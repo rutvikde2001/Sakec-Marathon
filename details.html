@@ -8,6 +8,7 @@
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/details.css">
+		<link rel="stylesheet" href="css/side-nav.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.2.1.js"></script>
 		<script src="js/script.js"></script>
@@ -36,45 +37,48 @@
 	<body class="" id="top">
 		<div class="main">
 <!--==============================header=================================-->
-		<header>
-			<div class="container_12">
-				<!-- <div class="grid_12">
-					<div class="socials">
-						<a href="#" class="fa fa-twitter"></a>
-						<a href="#" class="fa fa-facebook"></a>
-						<a href="#" class="fa fa-google-plus"></a>
-						<a href="#" class="fa fa-instagram"></a>
-					</div> -->
-						<!-- <a href="index.html" >
-							
-							<img src="images/logo.png" alt="Your Happy Family">
-						</a> -->
+			<header>
+				<div class="container_12">
 						<div class="s_logo">
 							<a href="index.html">SAKEC International Marathon</a>
+							
 						</div>
 
-					<div class="menu_block">
-						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
-							<ul class="sf-menu">
-								<li><a href="index.html">Home</a></li>
-								<!-- <li><a href="#">History</a></li> -->
-								<li class="current"><a href="details.html">Marathon 2021</a></li>
-								<li><a href="contactUs.html">Contact Us</a></li>
-								<li><a href="#" onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425; margin-top:-3px; font-size:24px; text-transform:none; padding:0px; width:max-content; min-width:max-content;">Register</a>
-									<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-								</li>
-								<li><a href="faq.html">FAQs</a></li>
-							</ul>
-						</nav>
-						<div class="clear"></div>
-					</div>
-					<!-- <div class="reg-btn">
-                        <button onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425;">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-                    </div> -->
+						<div class="menu_block">
+							<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+								<ul class="sf-menu">
+									<li><a href="index.html">Home</a></li>
+									<!-- <li><a href="#">History</a></li> -->
+									<li><a href="details.html">Marathon 2021</a></li>
+									<li class="current"><a href="contactUs.html" class="current">Contact Us</a></li>
+									<li><a href="#" onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425; margin-top:-3px; font-size:24px; text-transform:none; padding:0px; width:max-content; min-width:max-content;">Register</a>
+										<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+									</li>
+									
+									<li><a href="faq.html">FAQs</a></li>
+								</ul>
+							</nav>
+							<div class="clear"></div>
+						</div>
+						<div class="menu-icon">
+							<span class="nav-mobile" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+						</div>
+						
+						<!-- <div class="reg-btn">
+							<button onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425;">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+						</div> -->
 				</div>
-				<div class="clear"></div>
+					<div class="clear"></div>
+			</header>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="details.html">Marathon 2021</a>
+				<a href="contactUs">Contact us</a>
+				<a href="#" onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425; margin-top:-3px; font-size:18px; text-transform:none; padding:8px 8px 8px 32px; font-family:'Lato', sans-serif; width:max-content; min-width:max-content;">Register</a>
+						<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
+				<a href="faq.html">FAQ</a>
 			</div>
-		</header>
 <!--==============================Content=================================-->
 			<div class="content">
 				<div class="container_12" style="background-color: white;">
@@ -171,6 +175,15 @@
 			</div>
 			
 		</footer>
+		<script>
+			function openNav() {
+			  document.getElementById("mySidenav").style.width = "250px";
+			}
+			
+			function closeNav() {
+			  document.getElementById("mySidenav").style.width = "0";
+			}
+		</script>
 		
 	</body>
 </html>

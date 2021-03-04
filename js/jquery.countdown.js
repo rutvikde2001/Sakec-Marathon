@@ -37,7 +37,7 @@
 			console.log(chexk);
 			var chexk1 = new Date();
 			console.log(chexk1)
-			var diff = Math.abs(chexk - chexk1);
+			var diff = Math.floor(chexk - chexk1);
 			console.log(diff);
 			
 			// left = Math.floor((options.timestamp - (new Date())) / 1000);
