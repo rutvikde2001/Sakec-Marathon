@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function validate(){
+            var credentials = []
+            credentials[0] = document.getElementById("username").value;
+            credentials[1] = document.getElementById("password").value;
+            if (window.XMLHttpRequest) {
+            // script for browser version above IE 7 and the other popular browsers (newer browsers)
+            xmlhttp = new XMLHttpRequest();
+          } else {
+            // script for the IE 5 and 6 browsers (older versions)
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+          }
+          xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+              // get the element in which we will use as a placeholder and space for table
+              document.getElementById("tbody").innerHTML = this.responseText;
+              document.getElementById("username").innerHTML = "";
+              document.getElementById("password").innerHTML = "";
+            }
+          };
+          xmlhttp.open("GET", "php/validate.php?username="+credentials[0]+"&password="+credentials[1], true);
+          xmlhttp.send();
+        }
+    </script>
+</head>
+<body>
+    <div class="admin-login">
+        <h3>Admin Login:</h3>
+        <input type="text" name="username" id="username" placeholder="Enter username" required><br><br>
+        <input type="password" name="password" id="password" placeholder="Enter password" required><br><br>
+        <button id="submit" onclick="validate()">Log-in</button>
+        <p id="error"></p>
+        
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Query Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Query</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        
+    
+    
+        </tbody>
+    </table>
+    
+</body>
+</html>
