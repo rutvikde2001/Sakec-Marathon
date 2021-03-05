@@ -1,12 +1,13 @@
 .contacts{
     background-color: white;
     color: #0f1425;
-    width: 50vw;
+    width: 100vw;
     float: left;
+    padding-bottom: 50px;
 }
 .row{
-    width: 30vw;
-    margin-left: 10vw;
+    width: 50vw;
+    margin: auto;
     
 }
 .name{
@@ -25,10 +26,9 @@
 .contact-head{
     color: #0f1425;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding-top: 80px;
     padding-bottom: 50px;
-    margin-left: 20%;
 }
 .contact-head h4{
     width: max-content;
@@ -50,6 +50,8 @@ input[type=text], textarea{
 .contact-form{
     width: 50vw;
     margin-left: 50vw;
+    display: none;
+
 }
 .contact-form label{
     font-size: 20px;
