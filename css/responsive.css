@@ -131,7 +131,20 @@
     .main{
         border-bottom: none;
     }
+    .s_logo{
+        width: 90vw;
+        float: none;
+    }
+    .menu_block{
+        width: 100vw;
+        float: none;
+    }
+    
+    header{
+        padding-bottom: 30px;
+    }
 }
+
 @media screen and (max-width: 767px ){
     .menu_block::after{
         display: none;
@@ -163,6 +176,46 @@
     }
     .menu_block:after{
         display: none;
+    }
+    .menu_block{
+        display: none;
+    }
+    .menu-icon{
+        width: 10vw;
+        float: right;
+        margin-top: 30px;
+    }
+    .nav-mobile{
+        display: contents;
+        font-size: 10px;
+    }
+    .s_logo{
+        width: 90vw;
+        float: left;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .contacts{
+        width: 100vw;
+        float: none;
+
+    }
+    .contact-head{
+        width: 80vw;
+    }
+    .row{
+        width: 80vw;
+    }
+    .contact-form{
+        width: 100vw;
+        margin: 0px;
+    }
+    .contact-form input, label, textarea, #submit-btn{
+        width: 80vw;
+    }
+    #submit-btn{
+        margin-left: 10%;
     }
 }
 

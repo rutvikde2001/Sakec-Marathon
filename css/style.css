@@ -553,7 +553,6 @@ address dd span {
 footer {
   width: 100vw;
   display: block;
-  position: relative;
   color: #fff;
   padding-top: 22px;
   padding-bottom: 40px;
@@ -595,6 +594,7 @@ a.mail_link {
   text-transform: uppercase;
   font-size: 24px;
   line-height: 24px;
+  color: white;
 }
 
 .f_contacts .fa {
@@ -931,6 +931,7 @@ h4 {
 .f_logo a{
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
 .banner{
     margin-top: 200px;
@@ -993,6 +994,7 @@ h4 {
   background-color: #0F1425;
   color: white;
   width: 100vw;
+  height: max-content;
 }
 header{
   width: 100vw;
