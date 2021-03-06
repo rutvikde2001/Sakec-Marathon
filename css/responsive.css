@@ -134,6 +134,7 @@
     .s_logo{
         width: 90vw;
         float: none;
+        margin: auto;
     }
     .menu_block{
         width: 100vw;
