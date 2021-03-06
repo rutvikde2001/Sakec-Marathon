@@ -11,7 +11,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 @import url(//fonts.googleapis.com/css?family=BenchNine:700);
 html {
-  width: 100%;
+  width: 100vw;
 }
 a[href^="tel:"] {
   color: inherit;
@@ -255,7 +255,7 @@ a:hover {
 
 .main {
   background-color: #fff;
-  border-bottom: 6px solid #0f1425;
+  width: 100vw;
 }
 
 header {
@@ -340,6 +340,7 @@ header h1 a img {
 .content {
   padding-bottom: 84px;
   border-top: 6px solid #0f1425;
+  width: 100vw;
 }
 .page1 .content {
   padding-bottom: 57px;

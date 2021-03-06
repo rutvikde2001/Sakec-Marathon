@@ -74,3 +74,29 @@
         margin: 0px;
     }
 }
+.registration{
+  width: 50vw;
+  padding: 5px 10px 5px 10px;
+  overflow: hidden;
+  border: 1px solid #888888;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.registration p {
+  width: max-content;
+  float: left;
+  color: black;
+  font-size: 22px;
+  line-height: 40px;
+  padding-top: 5px;
+  margin: 0px;
+}
+.reg-btn{
+  padding: 10px 20px 10px 20px;
+  float: right;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}

@@ -4,11 +4,12 @@
 		<title>Details</title>
 		<meta charset="utf-8">
 		<meta name = "format-detection" content = "telephone=no" />
-		<link rel="icon" href="images/favicon.ico">
-		<link rel="shortcut icon" href="images/favicon.ico" />
+		<!-- <link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" /> -->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/details.css">
 		<link rel="stylesheet" href="css/side-nav.css">
+		<link rel="stylesheet" href="css/slidein.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.2.1.js"></script>
 		<script src="js/script.js"></script>
@@ -16,23 +17,15 @@
 		<script src="js/jquery.ui.totop.js"></script>
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="js/slideIn.js"></script>
 		<link rel="stylesheet" href="css/responsive.css">
 		<script>
 			$(document).ready(function(){
 				$().UItoTop({ easingType: 'easeOutQuart' });
 			});
 		</script>
-		<!--[if lt IE 8]>
-		<div style=' clear: both; text-align:center; position: relative;'>
-			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-			</a>
-		</div>
-		<![endif]-->
-		<!--[if lt IE 9]>
-			<script src="js/html5shiv.js"></script>
-			<link rel="stylesheet" media="screen" href="css/ie.css">
-		<![endif]-->
 	</head>
 	<body class="" id="top">
 		<div class="main">
@@ -64,9 +57,6 @@
 							<span class="nav-mobile" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 						</div>
 						
-						<!-- <div class="reg-btn">
-							<button onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425;">Register Now</button><noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
-						</div> -->
 				</div>
 					<div class="clear"></div>
 			</header>
@@ -75,7 +65,7 @@
 				<a href="index.html">Home</a>
 				<a href="details.html">Marathon 2021</a>
 				<a href="contactUs">Contact us</a>
-				<a href="#" onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425; margin-top:-3px; font-size:18px; text-transform:none; padding:8px 8px 8px 32px; font-family:'Lato', sans-serif; width:max-content; min-width:max-content;">Register</a>
+				<a href="#" onclick="popup('sakec-virtual-marathon-2021-034201');" class="tsbutton" style="background-color: #0f1425; margin-top:-3px; font-size:18px; text-transform:none; padding:8px 8px 8px 32px; font-family:'Lato', sans-serif; width:max-content; min-width:max-content; font-weight:inherit">Register</a>
 						<noscript id="tsNoJsMsg">Javascript on your browser is not enabled.</noscript><script src="https://www.townscript.com/popup-widget/townscript-widget.nocache.js" type="text/javascript"></script>
 				<a href="faq.html">FAQ</a>
 			</div>
@@ -85,7 +75,6 @@
 					<div class="process-heading">
 						<h3>Registration Process</h3>
 					</div>
-					<!-- <div class="process-under"></div> -->
 					<div class="process-map">
 						<div class="timeline">
 							<div class="container left">
@@ -101,19 +90,19 @@
 							  </div>
 							</div>
 							<div class="container left">
-							  <div class="content-map">
+							  <div class="content-map js-slidein ">
 								<h2>Download our app.</h2>
 								<p>Download our pedometer app from the links given. Android. iOS</p>
 							  </div>
 							</div>
 							<div class="container right">
-							  <div class="content-map">
+							  <div class="content-map js-slidein">
 								<h2>Login</h2>
 								<p>Log in with the credentials used while registering</p>
 							  </div>
 							</div>
 							<div class="container left">
-							  <div class="content-map">
+							  <div class="content-map js-slidein">
 								<h2>Run</h2>
 								<p>Get ready for the marathon.</p>
 							  </div>
@@ -123,54 +112,54 @@
 						<hr>
 						
 						<div class="pricing-wrapper clearfix">
-							<!-- Titulo -->
+					
 							<h1 class="pricing-table-title">Our Prices: </h1>
 						
-							<div class="pricing-table">
+							<div class="pricing-table js-slidein">
 							  <h3 class="pricing-title" style="background-color: #FFD700;">Basic</h3>
 							  <div class="price">Rs. 50</div>
-							  <!-- Lista de Caracteristicas / Propiedades -->
+
 							  <ul class="table-list">
 								<li>E-Certificate</li>
 								<li>E-medal</li>
 								<li>-</li>
 								<li>-</li>
 							  </ul>
-							  <!-- Contratar / Comprar -->
+					
 							  <div class="table-buy">
 								<p>Rs. 50</p>
 								<a href="https://www.townscript.com/e/sakec-virtual-marathon-2021-034201" target="blank" class="pricing-action" style="background-color:#FFD700;">Book now</a>
 							  </div>
 							</div>
 							
-							<div class="pricing-table recommended">
+							<div class="pricing-table recommended js-slidein">
 							  <h3 class="pricing-title" style="background-color: #018FFF;">Standard</h3>
 							  <div class="price">Rs. 249</div>
-							  <!-- Lista de Caracteristicas / Propiedades -->
+							
 							  <ul class="table-list">
 								<li>E-Certificate</li>
 								<li>Physical Medal</li>
 								<li>E-bib</li>
 								<li>-</li>
 							  </ul>
-							  <!-- Contratar / Comprar -->
+							 
 							  <div class="table-buy">
 								<p>Rs. 249</p>
 								<a href="https://www.townscript.com/e/sakec-virtual-marathon-2021-034201" target="blank" class="pricing-action" style="background-color: #018FFF;">Book now</a>
 							  </div>
 							</div>
 						
-							<div class="pricing-table">
+							<div class="pricing-table js-slidein">
 							  <h3 class="pricing-title" style="background-color: #e32636;">Pro</h3>
 							  <div class="price">Rs. 399</div>
-							  <!-- Lista de Caracteristicas / Propiedades -->
+							 
 							  <ul class="table-list">
 								<li>Physical Medal</li>
 								<li>Physical T-Shirt</li>
 								<li>Physical Bib</li>
 								<li>E-Certificate</li>
 							  </ul>
-							  <!-- Contratar / Comprar -->
+							
 							  <div class="table-buy">
 								<p>Rs. 399</p>
 								<a href="https://www.townscript.com/e/sakec-virtual-marathon-2021-034201" target="blank" class="pricing-action" style="background-color: #e32636;">Book now</a>
@@ -179,15 +168,15 @@
 						  </div>
 						<div class="clear"></div>
 						<div class="partition" style="border-top:1px solid #444444; width:100vw; margin-top:50px"></div>
-							<!-- <div class="wrapper"> -->
-						<div class="guidelines" style="text-align: center;"> 
+						
+						<div class="guidelines js-slidein" style="text-align: center;"> 
 							<h3> GUIDELINES AND REGULATIONS </h3>
 						</div> 
 						
 						
 							
 							
-						<div class="guidelines-content">
+						<div class="guidelines-content js-slidein">
 								<h4>
 								<p>1. Participants must follow and adhere to all the prevailing COVID -19 guidelines/ Government Rules(GR) that the
 								Government of India or the respective State Government/s enforce with regards to public lockdown, social distancing,
@@ -206,10 +195,9 @@
 									<br>
 								</h4>	
 						</div>
-							<!-- </div> -->
+							
 					</div>
-					<!-- <div class="rules">Rules</div>
-					<div class="theme">Themes</div> -->
+					
 					<div class="clear"></div>
 				</div>
 			</div>
@@ -223,7 +211,6 @@
 					</div>
 					<div class="f_contacts">
 						<a href="mailto: marathon@sakec.com" class="mail_link"><span class="fa fa-envelope"></span>marathon@sakec.ac.in</a>
-						<!-- <div class="f_phone"><span class="fa fa-phone"></span>+1 800 559 6580</div> -->
 					</div>
 					<div class="copy">
 						<span>SAKEC Marathon &copy; 2021 | <a href="#">Privacy Policy</a></span>
