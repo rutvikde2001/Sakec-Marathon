@@ -141,7 +141,7 @@ body {
 }
 
 .process-heading {
-  width: 100vw;
+  width: 100%;
   margin: auto;
   text-align: center;
 
@@ -171,7 +171,7 @@ h4 {
   margin-top: 50px;
   display: flex;
   background-color: #283655;
-  width: 80vw;
+  width: 80%;
   color: white;
   text-align: center;
   height: 100%;

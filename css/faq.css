@@ -4,7 +4,7 @@ body {
   background-color: #f2f2f2;
 }
 .question {
-  width: 50vw;
+  width: 50%;
   padding-top: 18.5px;
   padding-bottom: 12.5px;
   margin: auto;
@@ -39,7 +39,7 @@ body {
 }
 .answer {
   display: none;
-  width: 50vw;
+  width: 50%;
   padding-top: 18.5px;
   margin: auto;
   padding-bottom: 18.5px;

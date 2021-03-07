@@ -28,6 +28,7 @@ background: linear-gradient(to bottom, rgba(239,239,239,1) 0%,rgba(235,235,235,1
 	-webkit-box-sizing: border-box;
 	-o-box-sizing: border-box;
 	box-sizing: border-box;
+	background-color: #0f1425;
 }
 
 .points {
