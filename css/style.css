@@ -11,7 +11,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 @import url(//fonts.googleapis.com/css?family=BenchNine:700);
 html {
-  width: 100vw;
+  width: 100%;
 }
 a[href^="tel:"] {
   color: inherit;
@@ -255,13 +255,14 @@ a:hover {
 
 .main {
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
 }
 
 header {
   display: block;
   padding-top: 30px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 header h1 {
@@ -340,7 +341,7 @@ header h1 a img {
 .content {
   padding-bottom: 84px;
   border-top: 6px solid #0f1425;
-  width: 100vw;
+  width: 100%;
 }
 .page1 .content {
   padding-bottom: 57px;
@@ -552,7 +553,7 @@ address dd span {
 /**Footer**/
 
 footer {
-  width: 100vw;
+  width: 100%;
   display: block;
   color: #fff;
   padding-top: 22px;
@@ -612,7 +613,7 @@ footer:after {
   left: 50%;
   background-color: #908b8b;
   height: 10px;
-  width: 100vw;
+  width: 100%;
 }
 
 .copy {
@@ -927,7 +928,7 @@ h4 {
   padding-left: 20px;
   font-family: "Courier New", Courier, monospace;
   font-size: large;
-  width: 60vw;
+  width: 60%;
 }
 .f_logo a{
     font-size: 50px;
@@ -962,7 +963,7 @@ h4 {
 
 }
 .intro-head{
-  width: 100vw;
+  width: 100%;
   text-align: center;
   font-family: sans-serif;
   color: #727171;
@@ -971,10 +972,10 @@ h4 {
 .intro p{
   color: white;
   text-align: center !important;
-  width: 50vw;
+  width: 50%;
   margin: auto;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 24px;
+  line-height: 40px;
   font-style: italic;
   font-weight: normal;
   padding-bottom: 20px;
@@ -984,7 +985,7 @@ h4 {
   padding-top: 40px;
   padding-bottom: 80px;
   color: white;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   padding-left: 0px;
   
@@ -999,11 +1000,11 @@ h4 {
 .container_12{
   background-color: #0F1425;
   color: white;
-  width: 100vw;
+  width: 100%;
   height: max-content;
 }
 header{
-  width: 100vw;
+  width: 100%;
   background-color: #0F1425;
   color: white;
 }
@@ -1042,16 +1043,16 @@ header a{
 }
 
 .s_logo{
-  width: 35vw;
+  width: 35%;
   float: left;
   font-size: 30px;
 }
 .menu_block{
-  width: 65vw;
+  width: 65%;
   float: left;
 }
 .reg-btn{
-  width: 10vw;
+  width: 10%;
   float: left;
 }
 .reg-btn button{
@@ -1069,4 +1070,49 @@ header a{
 .tsbutton{
   font-size: 24px;
   padding: 0px;
+}
+
+.reg-opt{
+  width: 35%;
+  margin: auto;
+  padding: 10px 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.opt-1 p, .opt-2 p{
+  font-size: 20px;
+  float: left;
+  color: black;
+  padding-top: 20px;
+  width: max-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.opt-1, .opt-2{
+  border-bottom: 1px solid #c2c2c2;
+  overflow: hidden;
+  padding: 10px 5px;
+}
+.opt-1 button, .opt-2 button{
+  float: right;
+  width: max-content;
+  margin-top: 10px;
+  background-color: #283655;
+  border: none;
+}
+.reg-opt button:hover{
+  background-color: #0f1425;
+  cursor: pointer;
+}
+.reg-opt h4{
+  color: #0f1425;
+  width: max-content;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  margin: auto;
+  font-size: 25px;
+  font-family:sans-serif;
+}
+.reg-opt img{
+  height: 30px;
+  margin-top: -5px;
 }

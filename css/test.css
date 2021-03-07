@@ -10,7 +10,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100vw;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -110,5 +110,5 @@
 
 .text-opaque{
     opacity: 0.5;
-    width: 100vw;
+    width: 100%;
 }
