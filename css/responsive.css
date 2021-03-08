@@ -222,6 +222,19 @@
     #submit-btn{
         margin-left: 10%;
     }
+    .reg-opt{
+        width: 90%;
+    }
+    .reg-opt p{
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+    .button-div{
+        float: none;
+        margin: auto;
+    }
 }
 
 
@@ -254,6 +267,7 @@
     }
     .intro p{
         padding-bottom: 30px;
+        font-size: 18px;
     }
     .text{
         font-size: 20px;

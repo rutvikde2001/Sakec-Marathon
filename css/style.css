@@ -1093,11 +1093,11 @@ header a{
   padding: 10px 5px;
 }
 .opt-1 button, .opt-2 button{
-  float: right;
   width: max-content;
-  margin-top: 10px;
   background-color: #283655;
   border: none;
+  margin-top: 0px;
+  
 }
 .reg-opt button:hover{
   background-color: #0f1425;
@@ -1115,4 +1115,10 @@ header a{
 .reg-opt img{
   height: 30px;
   margin-top: -5px;
+}
+.button-div{
+  float: right;
+  width: max-content;
+  margin-top: 10px;
+  border: none;
 }
