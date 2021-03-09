@@ -7,7 +7,7 @@
     $name = $_POST['name'];
     $email = $_POST['email'];
     $query = $_POST['query'];
-    $sql = "INSERT INTO userQueries (name,email,query)Values('$name','$email','$query');";
+    $sql = "INSERT INTO userqueries (name,email,query)Values('$name','$email','$query');";
     $result = mysqli_query($conn,$sql);
     if($result){
         echo ("<script LANGUAGE='JavaScript'>

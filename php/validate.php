@@ -13,7 +13,7 @@
         if($row = mysqli_fetch_assoc($result)){
             if($password == $row['password']){
 
-                $sql = "SELECT * FROM userQueries ORDER BY id DESC;";
+                $sql = "SELECT * FROM userqueries ORDER BY id DESC;";
                 $result = mysqli_query($conn,$sql);
                 while($row = mysqli_fetch_assoc($result)){
                     echo "<tr>";
