@@ -5,319 +5,201 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
 	<style>
-		* {
-			margin: 0;
-			padding: 0;
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
-		  }
-		  
-		  body {
-			color: #FFF;
-			font-size: 62.5%;
-			font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
-		  }
-		  
-		  ul {
-			list-style-type: none;
-		  }
-		  
-		  a {
-			color: #e95846;
-			text-decoration: none;
-		  }
-		  
-		  .pricing-table-title {
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: 2.6em;
-			color: #0f1425;
-			margin-top: 15px;
-			text-align: left;
-			margin-bottom: 25px;
-			text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-		  }
-		  
-		  .pricing-table-title a {
-			font-size: 0.6em;
-		  }
-		  
-		  .clearfix:after {
-			content: '';
-			display: block;
-			height: 0;
-			width: 0;
-			clear: both;
-		  }
-		  /** ========================
-		   * Contenedor
-		   ============================*/
-		  .pricing-wrapper {
-			width: 960px;
-			margin: 40px auto 0;
-		  }
-		  
-		  .pricing-table {
-			margin: 0 10px;
-			text-align: center;
-			width: 300px;
-			float: left;
-			-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
-			box-shadow: 0 0 15px rgba(0,0,0,0.4);
-			-webkit-transition: all 0.25s ease;
-			-o-transition: all 0.25s ease;
-			transition: all 0.25s ease;
-		  }
-		  
-		  .pricing-table:hover {
-			-webkit-transform: scale(1.06);
-			-ms-transform: scale(1.06);
-			-o-transform: scale(1.06);
-			transform: scale(1.06);
-		  }
-		  
-		  .pricing-title {
-			color: #FFF;
-			background: #e95846;
-			padding: 20px 0;
-			font-size: 2em;
-			text-transform: uppercase;
-			text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-		  }
-		  
-		  .pricing-table.recommended .pricing-title {
-			background: #2db3cb;
-		  }
-		  
-		  .pricing-table.recommended .pricing-action {
-			background: #2db3cb;
-		  }
-		  
-		  .pricing-table .price {
-			background: #403e3d;
-			font-size: 3.0em;
-			font-weight: 700;
-			padding: 20px 0;
-			text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-		  }
-		  
-		  .pricing-table .price sup {
-			font-size: 0.4em;
-			position: relative;
-			left: 5px;
-		  }
-		  
-		  .table-list {
-			background: #FFF;
-			color: #403d3a;
-		  }
-		  
-		  .table-list li {
-			font-size: 2em;
-			font-weight: 700;
-			padding: 24px 10px;
-		  }
-		  
-		  .table-list li:before {
-			content: "\f00c";
-			font-family: 'FontAwesome';
-			color: #3fab91;
-			display: inline-block;
-			position: relative;
-			right: 5px;
-			font-size: 16px;
-			display: none;
-		  } 
-		  
-		  .table-list li span {
-			font-weight: 400;
-		  }
-		  
-		  .table-list li span.unlimited {
-			color: #FFF;
-			background: #e95846;
-			font-size: 0.9em;
-			padding: 5px 7px;
-			display: inline-block;
-			-webkit-border-radius: 38px;
-			-moz-border-radius: 38px;
-			border-radius: 38px;
-		  }
-		  
-		  
-		  .table-list li:nth-child(2n) {
-			background: #F0F0F0;
-		  }
-		  
-		  .table-buy {
-			background: #FFF;
-			padding: 15px;
-			text-align: left;
-			overflow: hidden;
-		  }
-		  
-		  .table-buy p {
-			float: left;
-			color: #37353a;
-			font-weight: 700;
-			font-size: 2.4em;
-		  }
-		  
-		  .table-buy p sup {
-			font-size: 0.5em;
-			position: relative;
-			left: 5px;
-		  }
-		  
-		  .table-buy .pricing-action {
-			float: right;
-			color: #FFF;
-			background: #e95846;
-			padding: 10px 16px;
-			-webkit-border-radius: 2px;
-			-moz-border-radius: 2px;
-			border-radius: 2px;
-			font-weight: 700;
-			font-size: 1.4em;
-			text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-			-webkit-transition: all 0.25s ease;
-			-o-transition: all 0.25s ease;
-			transition: all 0.25s ease;
-		  }
-		  
-		  .table-buy .pricing-action:hover {
-			background: #cf4f3e;
-		  }
-		  
-		  .recommended .table-buy .pricing-action:hover {
-			background: #228799;  
-		  }
-		  
-		  /** ================
-		   * Responsive
-		   ===================*/
-		   @media only screen and (min-width: 768px) and (max-width: 959px) {
-			.pricing-wrapper {
-			  width: 768px;
-			}
-		  
-			.pricing-table {
-			  width: 236px;
-			}
-			
-			.table-list li {
-			  font-size: 1.3em;
-			}
-		  
-		   }
-		  
-		   @media only screen and (max-width: 767px) {
-			.pricing-wrapper {
-			  width: 420px;
-			}
-		  
-			.pricing-table {
-			  display: block;
-			  float: none;
-			  margin: 0 0 20px 0;
-			  width: 100%;
-			}
-		   }
-		  
-		  @media only screen and (max-width: 479px) {
-			.pricing-wrapper {
-			  width: 300px;
-			}
-		  } 
-		.registration{
-			width: 30vw;
-			padding: 5px 10px 5px 10px;
-			overflow: hidden;
-			border: 1px solid black;
-			margin: auto;
-			margin-top: 50px;
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+		.mySlides-fade{
+			padding: 15px 8px;
+			height: 400px;
 
 		}
-		.registration p {
+		.mySlides-fade img{
+			width: 100%;
+		}
+		.main{
 			width: max-content;
-			float: left;
-			color: black;
-			font-size: 22px;
-			line-height: 40px;
-			padding-top: 5px;
+			margin: auto;
+			position: relative;
 		}
-		.reg-btn{
-			padding: 10px 20px 10px 20px;
-			float: right;
-			background-color: black;
+		.logo{
+			width: 60%;
+			margin-left: 20%;
+		}
+		.overlay{
+			opacity: 1;
+			top: 0;
+			left: 0;
+			position: absolute;
+			width: 60%;
+			margin-left: 20% ;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.6);
 			color: white;
-			font-size: 20px;
 		}
+	
+		  .banner-overlay{
+			width: 60%;
+			margin: auto;
+			background: rgba(0, 0, 0, 0.7);
+			margin-left: 20%;
+			top: 0;
+			left: 0;
+			position: absolute;
+			opacity: 1;
+			color: white;
+			height: 100%;
+
+		  }
+		  .banner-overlay:hover{
+			  opacity: 1;
+		  }
+		  .overlay-opt-1 p, .overlay-opt-2 p{
+			font-size: 20px;
+			float: left;
+			padding-top: 20px;
+			width: max-content;
+			font-family: Arial, Helvetica, sans-serif;
+		  }
+		  .overlay-opt-1, .overlay-opt-2{
+			border-bottom: 1px solid #c2c2c2;
+			overflow: hidden;
+			padding: 10px 5px;
+			width: 80%;
+			margin: auto;
+		  }
+		  .overlay-opt-1 button, .overlay-opt-2 button{
+			width: max-content;
+			background-color: #296d98;
+			border: none;
+			margin-top: 26px;
+			
+		  }
+		  .banner-overlay button:hover{
+			background-color: #283655;
+			cursor: pointer;
+		  }
+		  .banner-overlay h4{
+			width: 40%;
+			padding-top: 10%;
+			padding-bottom: 35px;
+			margin: auto;
+			font-size: 25px;
+			font-family:sans-serif;
+		  }
+		  .banner-overlay p{
+			  
+			  text-align: center;
+			  width: max-content;
+			  margin: auto;
+			  margin-top: 20px;
+		  }
+		  .banner-overlay img{
+			height: 30px;
+			margin-top: -5px;
+			z-index: 1;
+		  }
+		  .button-div{
+			float: right;
+			width: max-content;
+			margin-top: 10px;
+			border: none;
+		  }
 	</style>
 </head>
-<body>
-	<!-- Contenedor -->
-	<div class="pricing-wrapper clearfix">
-		<!-- Titulo -->
-		<h1 class="pricing-table-title">Our Prices: </h1>
-	
-		<div class="pricing-table">
-		  <h3 class="pricing-title" style="background-color: #FFD700;">Basic</h3>
-		  <div class="price">Rs. 50</div>
-		  <!-- Lista de Caracteristicas / Propiedades -->
-		  <ul class="table-list">
-			<li>E-Certificate</li>
-			<li>E-medal</li>
-			<li>-</li>
-			<li>-</li>
-		  </ul>
-		  <!-- Contratar / Comprar -->
-		  <div class="table-buy">
-			<p>Rs. 50</p>
-			<a href="#" class="pricing-action" style="background-color:#FFD700;">Book now</a>
-		  </div>
-		</div>
-		
-		<div class="pricing-table recommended">
-		  <h3 class="pricing-title" style="background-color: #018FFF;">Standard</h3>
-		  <div class="price">Rs. 249</div>
-		  <!-- Lista de Caracteristicas / Propiedades -->
-		  <ul class="table-list">
-			<li>E-Certificate</li>
-			<li>Physical Medal</li>
-			<li>E-bib</li>
-			<li>-</li>
-		  </ul>
-		  <!-- Contratar / Comprar -->
-		  <div class="table-buy">
-			<p>Rs. 249</p>
-			<a href="#" class="pricing-action" style="background-color: #018FFF;">Book now</a>
-		  </div>
+<body style="margin: 0px; padding: 0px;">
+	<div class="slick">
+			
+		<div class="mySlides-fade">			<img src="images/slides/slide1.jpg"  >
 		</div>
 	
-		<div class="pricing-table">
-		  <h3 class="pricing-title" style="background-color: #e32636;">Pro</h3>
-		  <div class="price">Rs. 399</div>
-		  <!-- Lista de Caracteristicas / Propiedades -->
-		  <ul class="table-list">
-			<li>Physical Medal</li>
-			<li>Physical T-Shirt</li>
-			<li>Physical Bib</li>
-			<li>E-Certificate</li>
-		  </ul>
-		  <!-- Contratar / Comprar -->
-		  <div class="table-buy">
-			<p>Rs. 399</p>
-			<a href="#" class="pricing-action" style="background-color: #e32636;">Book now</a>
-		  </div>
+		<div class="mySlides-fade">			<img src="images/slides/slide2.jpg"  >
 		</div>
-	  </div>
-
-	<div class="registration">
-		<p>Register here: </p>
-		<button class="reg-btn"> Register</button>
+	
+		<div class="mySlides-fade">			<img src="images/slides/slide3.jpg"  >
+		</div>
+	
+		<div class="mySlides-fade">
+			<img src="images/slides/slide4.jpg"  >
+		</div>
+		<div class="mySlides-fade">			<img src="images/slides/slide5.jpg"  >
+		</div>
+		<div class="mySlides-fade">			<img src="images/slides/slide6.jpg"  >
+		</div>
+		<div class="mySlides-fade">			<img src="images/slides/slide18.jpg" >
+	
+		</div>
+		<div class="mySlides-fade">			<img src="images/slides/slide8.jpg"  >
+	
+		</div>
+		<div class="mySlides-fade">			<img src="images/slides/slide9.jpg"  >
+	
+		</div>
+		<div class="mySlides-fade">
+			<img src="images/slides/slide10.jpg" >
+	
+		</div>
+		<div class="mySlides-fade">
+			<img src="images/slides/slide11.jpg" >
+	
+		</div>
+		<div class="mySlides-fade">
+			<img src="images/slides/slide12.jpg" >
+	
+		</div>
+	
+		<div class="mySlides-fade">
+			<img src="images/slides/slide13.jpg" >
+	
+		</div>
+		<div class="mySlides-fade">
+			<img src="images/slides/slide14.jpg" >
+	
+		</div>
+		<div class="mySlides-fade">
+			<img src="images/slides/slide15.jpg" >
+	
+		</div>
+	
 	</div>
+
+	
+	
+
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		$('.slick').slick({
+			centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 1,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			responsive: [
+			  {
+				breakpoint: 768,
+				settings: {
+				  arrows: false,
+				  centerMode: true,
+				  centerPadding: '40px',
+				  slidesToShow: 3
+				}
+			  },
+			  {
+				breakpoint: 480,
+				settings: {
+				  arrows: false,
+				  centerMode: true,
+				  centerPadding: '40px',
+				  slidesToShow: 1
+				}
+			  }
+			]
+		  });
+	</script>
 </body>
 </html>

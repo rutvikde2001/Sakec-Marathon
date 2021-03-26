@@ -64,9 +64,9 @@
 			m = Math.floor(left / minutes);
 			updateDuo(4, 5, m);
 			left -= m*minutes;
-			
+			console.log(left)
 			// Number of seconds left
-			s = left;
+			s = Math.floor(left);
 			updateDuo(6, 7, s);
 			
 			// Calling an optional user supplied callback
