@@ -559,7 +559,7 @@ footer {
   padding-top: 22px;
   padding-bottom: 40px;
   text-align: center;
-  background-color: #0F1425;
+  background-color: #0f1425;
 }
 
 footer a:hover {
@@ -568,7 +568,7 @@ footer a:hover {
 }
 .s_logo a {
   font: bold 72px/72px "Economica", sans-serif;
-  color:white;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -892,13 +892,13 @@ footer:after {
 .sponsor {
   background-color: white;
   width: 1200;
-  color: #0F1425;
+  color: #0f1425;
   margin: auto;
   padding-top: 0px;
   align-content: center;
 }
 .sponsor h3 {
-  color: #0F1425;
+  color: #0f1425;
   margin: 0px;
   padding-top: 20px;
 }
@@ -930,47 +930,49 @@ h4 {
   font-size: large;
   width: 60%;
 }
-.f_logo a{
-    font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+.f_logo a {
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
 }
-.banner{
-    margin-top: 200px;
-    width: 80%;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
+.banner {
+  margin-top: 200px;
+  width: 80%;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
 }
-.banner img{
-    margin: auto;
-    position: relative;
-    height: 100%;
+.banner img {
+  margin: auto;
+  position: relative;
+  height: 100%;
 }
-.intro{
+.intro {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color:#0F1425 ;
-  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #0f1425;
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 
-h4 {
-  display: block;
-  margin: 0px 0px 0px 250px;
-  padding-left: 20px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: large;
-  width: 60vw;
+  h4 {
+    display: block;
+    margin: 0px 0px 0px 250px;
+    padding-left: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    width: 60vw;
+  }
 }
-
-}
-.intro-head{
+.intro-head {
   width: 100%;
   text-align: center;
   font-family: sans-serif;
   color: #727171;
 }
 
-.intro p{
+.intro p {
   color: white;
   text-align: center !important;
   width: 50%;
@@ -980,41 +982,40 @@ h4 {
   font-style: italic;
   font-weight: normal;
   padding-bottom: 20px;
-  font-family: 'Antic Slab', serif;
+  font-family: "Antic Slab", serif;
 }
-.intro h4{
+.intro h4 {
   padding-top: 40px;
   padding-bottom: 80px;
   color: white;
   width: 100%;
   text-align: center;
   padding-left: 0px;
-  
 }
-.intro-head h4{
+.intro-head h4 {
   text-align: center;
   padding: 30px 0 10px 0;
   color: #727171;
   margin: auto;
   font-size: 42px;
 }
-.container_12{
-  background-color: #0F1425;
+.container_12 {
+  background-color: #0f1425;
   color: white;
   width: 100%;
   height: max-content;
 }
-header{
+header {
   width: 100%;
-  background-color: #0F1425;
+  background-color: #0f1425;
   color: white;
 }
 
-header a{
+header a {
   color: white;
 }
 
-.reg-box{
+.reg-box {
   margin: auto;
   width: max-content;
   padding-left: 10px;
@@ -1025,38 +1026,38 @@ header a{
   border: 2px solid #0f1425;
   margin-top: 40px;
 }
-.reg-text{
-  width:60%;
+.reg-text {
+  width: 60%;
   float: left;
   font-size: 30px;
   color: #0f1425;
   height: max-content;
 }
-.reg-box a{
+.reg-box a {
   margin-top: 0px;
   float: right;
   vertical-align: auto;
 }
-.tsbutton{
+.tsbutton {
   margin-top: 30px;
   background-color: #0f1425;
   color: white;
 }
 
-.s_logo{
+.s_logo {
   width: 35%;
   float: left;
   font-size: 30px;
 }
-.menu_block{
+.menu_block {
   width: 65%;
   float: left;
 }
-.reg-btn{
+.reg-btn {
   width: 10%;
   float: left;
 }
-.reg-btn button{
+.reg-btn button {
   width: max-content;
   border: none;
   padding: 0px;
@@ -1064,23 +1065,24 @@ header a{
   font-size: 22px;
   color: #908b8b;
 }
-.reg-btn button:hover{
+.reg-btn button:hover {
   color: white;
   transition: 0.8s;
 }
-.tsbutton{
+.tsbutton {
   font-size: 24px;
   padding: 0px;
 }
 
-.reg-opt{
+.reg-opt {
   width: 35%;
   margin: auto;
   padding: 10px 5px;
   overflow: hidden;
   margin-top: 20px;
 }
-.opt-1 p, .opt-2 p{
+.opt-1 p,
+.opt-2 p {
   font-size: 20px;
   float: left;
   color: black;
@@ -1088,12 +1090,14 @@ header a{
   width: max-content;
   font-family: Arial, Helvetica, sans-serif;
 }
-.opt-1, .opt-2{
+.opt-1,
+.opt-2 {
   border-bottom: 1px solid #c2c2c2;
   overflow: hidden;
   padding: 10px 5px;
 }
-.opt-1 button, .opt-2 button{
+.opt-1 button,
+.opt-2 button {
   width: max-content;
   background-color: #283655;
   border: none;
@@ -1101,32 +1105,31 @@ header a{
   padding: 10px 16px;
   font-size: 14px;
   font-weight: 600;
-  
 }
-.reg-opt button:hover{
+.reg-opt button:hover {
   background-color: #0f1425;
   cursor: pointer;
 }
-.reg-opt h4{
+.reg-opt h4 {
   color: #0f1425;
   width: auto;
   padding-top: 15px;
   padding-bottom: 35px;
   margin: auto;
   font-size: 25px;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
-.reg-opt img{
+.reg-opt img {
   height: 30px;
   margin-top: -5px;
 }
-.button-div{
+.button-div {
   float: right;
   width: max-content;
   margin-top: 10px;
   border: none;
 }
-.logo{
+.logo {
   height: 30px;
   padding-top: 21px;
 }
