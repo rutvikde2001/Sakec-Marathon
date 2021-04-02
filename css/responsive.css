@@ -1,111 +1,3 @@
-@media screen and (max-width: 480px){
-    .s_logo a{
-        font-size: 30px;
-        transition: 0s;
-    }
-    .f_logo a{
-        font-size: 30px;
-        transition: 0s;
-    }
-    .f_contacts{
-        font-size: 16px;
-        transition: 0s;
-    }
-    .copy a{
-        font-size: 14px;
-        transition: 0s;
-    }
-    .copy span{
-        font-size: 14px;
-    }
-    .question{
-        width: 90%;
-        font-size: 17px;
-    }
-    .answer{
-        font-size: 17px;
-        width: 90%;
-    }
-    .icon{
-        display: none;
-    }
-    .intro-head h4{
-        font-size: 30px;
-    }
-    .countDays, .countHours, .countMinutes, .countSeconds{
-        width: 70px;
-        height: 70px;
-    }
-    .boxName{
-        font-size: 14px;
-        top: -15px;
-    }
-    #counter{
-        font: bold 40px/48px 'BenchNine', sans-serif;
-    }
-}
-
-@media screen and (max-width: 1200px){
-    .question{
-        width: 80%;
-        font-size: 22px;
-    }
-    .answer{
-        width: 80%;
-        font-size: 22px;
-    }
-    .intro p{
-        width: 70%;
-    }
-    .intro h3{
-        width: 80%;
-    }
-    
-}
-@media screen and (max-width: 640px){
-    .question{
-        width: 90%;
-    }
-    .icon{
-        display: none;
-    }
-    .answer{
-        width: 90%;
-    }
-    .intro p{
-        width: 80%;
-    }
-    .intro h3{
-        font-size: 30px;
-        width: 90%;
-    }
-    .contact-head{
-        width: 100%;
-    }
-    .row{
-        width: 100%;
-    }
-    .contact-head{
-        line-height: 35px;
-    }
-    .contact-head h4{
-        width: inherit;
-    }
-    .banner{
-        width: 100%;
-    }
-    .space{
-        display: none;
-    }
-    .reg-btn{
-        width: 70%;
-        margin: auto;
-    }
-    .process-heading h3{
-        font-size: 32px;
-        margin-bottom: 10px;
-    }
-}
 @media screen and (max-width: 1300px ){
     .question{
         width: 90%;
@@ -149,8 +41,96 @@
         padding-bottom: 30px;
     }
 }
+@media screen and (max-width: 1200px){
+    .question{
+        width: 80%;
+        font-size: 22px;
+    }
+    .answer{
+        width: 80%;
+        font-size: 22px;
+    }
+    .intro p{
+        width: 70%;
+    }
+    .intro h3{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width: 1100px){
+    .contacts{
+        width: 100%;
+        float: none;
 
-@media screen and (max-width: 767px ){
+    }
+    .contact-head{
+        width: 80%;
+    }
+    .row{
+        width: 80%;
+    }
+    .contact-form{
+        width: 100%;
+        margin: 0px;
+    }
+    .contact-form input, label, textarea, #submit-btn{
+        width: 80%;
+    }
+    #submit-btn{
+        margin-left: 10%;
+    }
+    .reg-opt{
+        width: 90%;
+    }
+    .reg-opt p{
+        float: left;
+        margin-bottom: 20px;;
+
+    }
+    .button-div{
+        float: right;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+
+/* Details page */
+
+@media screen and (max-width: 960px){
+    .guidelines h3{
+        font-size: 30px;
+    }
+    .guidelines-content{
+        padding-top: 30px;
+    }
+    .guidelines-content h4{
+        width: 80%;
+    }
+    .contact-head{
+        width: 80%;
+    }
+    .contact-head h4{
+        padding-top: 10px;
+    }
+    .row{
+        width: 80%;
+    }
+    .overlay-opt-1, .overlay-opt-2{
+        margin-top: 10px;
+    }
+    .banner-overlay h4{
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .contact-head h4{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 770px ){
     .menu_block::after{
         display: none;
     }
@@ -199,67 +179,156 @@
         float: left;
         margin: 0px;
     }
-}
-@media screen and (max-width: 1100px){
-    .contacts{
+    /* For banner overlay */
+    .banner-overlay{
         width: 100%;
-        float: none;
-
+        margin: auto;
+    }
+    .banner-overlay h4{
+        font-size: 15px;
+        padding-top: 3%;
+    }
+    .banner-overlay p{
+        margin-top: 0px;
+    }
+    .overlay-opt-1, .overlay-opt-2{
+        width: 90%;
+    }
+    .banner-overlay img{
+        width: auto;
+    }
+    .overlay-button-div{
+        float: right;
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 640px){
+    .question{
+        width: 90%;
+    }
+    .icon{
+        display: none;
+    }
+    .answer{
+        width: 90%;
+    }
+    .intro p{
+        width: 80%;
+    }
+    .intro h3{
+        font-size: 30px;
+        width: 90%;
     }
     .contact-head{
-        width: 80%;
+        width: 100%;
     }
     .row{
-        width: 80%;
-    }
-    .contact-form{
         width: 100%;
-        margin: 0px;
     }
-    .contact-form input, label, textarea, #submit-btn{
-        width: 80%;
+    .contact-head{
+        line-height: 35px;
     }
-    #submit-btn{
-        margin-left: 10%;
+    .contact-head h4{
+        width: inherit;
     }
-    .reg-opt{
+    .banner{
+        width: 97%;
+    }
+    .space{
+        display: none;
+    }
+    .reg-btn{
+        width: 70%;
+        margin: auto;
+    }
+    .process-heading h3{
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .s_logo a{
+        font-size: 30px;
+        transition: 0s;
+    }
+    .f_logo a{
+        font-size: 30px;
+        transition: 0s;
+    }
+    .f_contacts{
+        font-size: 16px;
+        transition: 0s;
+    }
+    .copy a{
+        font-size: 14px;
+        transition: 0s;
+    }
+    .copy span{
+        font-size: 14px;
+    }
+    .question{
         width: 90%;
+        font-size: 17px;
+    }
+    .answer{
+        font-size: 17px;
+        width: 90%;
+    }
+    .icon{
+        display: none;
+    }
+    .intro-head h4{
+        font-size: 30px;
+    }
+    .countDays, .countHours, .countMinutes, .countSeconds{
+        width: 70px;
+        height: 70px;
+    }
+    .boxName{
+        font-size: 14px;
+        top: -15px;
+    }
+    #counter{
+        font: bold 40px/48px 'BenchNine', sans-serif;
+    }
+    .reg-opt h4{
+        font-size: 20px;
+        float: none;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .button-div{
+        float: none;
+        margin: auto;
+        margin-bottom: 10px;
     }
     .reg-opt p{
         float: none;
         margin: auto;
         margin-bottom: 20px;
-
+        
     }
-    .button-div{
-        float: none;
-        margin: auto;
+    .overlay-opt-1 p{
+        font-size: 15px;
     }
-}
-
-
-/* Details page */
-
-@media screen and (max-width: 960px){
-    .guidelines h3{
-        font-size: 30px;
+    .overlay-opt-2 p{
+        font-size: 15px;
     }
-    .guidelines-content{
-        padding-top: 30px;
+    .banner-overlay img{
+        height: 20px;
     }
-    .guidelines-content h4{
-        width: 80%;
+    .overlay-opt-2, .overlay-opt-1 {
+        padding: 2px 5px;
+        padding-bottom: 8px;
     }
-    .contact-head{
-        width: 80%;
-    }
-    .contact-head h4{
-        padding-top: 10px;
-    }
-    .row{
-        width: 80%;
+    .banner-overlay button{
+        margin-top: 0px;
+        font-size: 11px;
+        min-width: 180px;
     }
 }
+
 
 @media screen and (max-width: 420px){
     .guidelines h3{
@@ -272,15 +341,14 @@
     .text{
         font-size: 20px;
     }
+    .banner-overlay{
+        display: none;
+    }
 }
 
 
 /* Index Page */
-@media screen and (max-width: 800px){
-    .contact-head h4{
-        font-size: 30px;
-    }
-}
+
 
 @media screen and (max-width: 360px){
 
@@ -296,3 +364,8 @@
         font: bold 30px/48px 'BenchNine', sans-serif;
     }
 }
+
+
+
+
+
