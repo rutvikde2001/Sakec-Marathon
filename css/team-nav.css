@@ -56,7 +56,9 @@
   float: right;
 }
 @media screen and (max-width: 420px){
-  .logo{
-    width: 200px;
+  #logo{
+    width: 290px;
+    text-align: left;
+  
   }
 }
