@@ -6,7 +6,7 @@
 }
 
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -31,6 +31,7 @@
 
 @media screen and (max-width: 1075px) {
   .topnav a:not(:first-child) {display: none;}
+  .right_nav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -49,4 +50,8 @@
     display: block;
     text-align: left;
   }
+}
+.right_nav{
+  width: max-content;
+  float: right;
 }
