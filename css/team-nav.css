@@ -55,3 +55,8 @@
   width: max-content;
   float: right;
 }
+@media screen and (max-width: 420px){
+  .logo{
+    width: 200px;
+  }
+}
