@@ -21,7 +21,7 @@
                     echo "<td>".$row['name']."</td>";
                     echo "<td>".$row['email']."</td>";
                     echo "<td>".$row['query']."</td>";
-                    echo "<td>".$row['querytime']."</td>";
+                    echo "<td>".$row['queryTime']."</td>";
                     echo "</tr>";
                 }
             }else{
